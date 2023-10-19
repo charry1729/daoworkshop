@@ -1,0 +1,31 @@
+{
+  "name": "nft_marketplace_smart_contract",
+  "description": "Default project for Truffle: example contracts, migrations and tests",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "truffle migrate --reset",
+    "blockchain": "ganache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "assertion-error": "^2.0.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "crypto": "^1.0.1",
+    "ethers": "^5.7.2",
+    "truffle": "^5.9.3",
+    "tslib": "^2.5.2",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7"
+  }
+}
